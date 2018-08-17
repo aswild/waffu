@@ -1,4 +1,4 @@
-Waff University 💻🐕
+Waff University 🖥 🐕
 ===========================
 JavaScript study group repo
 
@@ -8,6 +8,11 @@ Setup
 2. `cd react-example`
 3. `npm install`
 4. `npm start`
+
+Useful terminal commands
+===========================
+* `ls` - lists the contents of the directory you are in
+* `cd notes` - changes to the given directory, ie: `notes/`
 
 If things go wrong
 ===========================
