@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+          <div id="logo-wrapper"></div>
           <h1 className="App-title">Meow Meow Meow :3</h1>
         </header>
         <p className="App-intro">
@@ -19,3 +18,4 @@ class App extends Component {
 }
 
 export default App;
+// vim: sw=2 sts=2

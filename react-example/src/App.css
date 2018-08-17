@@ -3,9 +3,37 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 10s linear;
-  height: 100px;
+  animation: App-logo-spin infinite 12s linear;
+  height: 150px;
   position: relative;
+}
+@keyframes App-logo-spin {
+  0%, 100% { transform: rotate(0deg); left: -45%; }
+  50% { transform: rotate(360deg); left: 45%; }
+}
+
+.logo-shape {
+    animation: App-logo-color infinite 20s linear;
+}
+@keyframes App-logo-color {
+    0%, 100% { fill: red; }
+    10%, 90% { fill: yellow; }
+    20%, 80% { fill: green; }
+    30%, 70% { fill: cyan; }
+    40%, 60% { fill: blue; }
+    50%      { fill: magenta; }
+}
+
+.logo-nucleus {
+    animation: App-nucleus-color infinite 11s linear;
+}
+@keyframes App-nucleus-color {
+    0%, 100% { fill: cyan; }
+    10%, 90% { fill: blue; }
+    20%, 80% { fill: magenta; }
+    30%, 70% { fill: red; }
+    40%, 60% { fill: yellow; }
+    50%      { fill: green; }
 }
 
 .App-header {
@@ -21,9 +49,4 @@
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  0%, 100% { transform: rotate(0deg); left: -45%; }
-  50% { transform: rotate(360deg); left: 45%; }
 }
