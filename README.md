@@ -2,6 +2,8 @@ Waff University 🖥 🐕
 ===========================
 JavaScript study group repo
 
+_Waff (n) - Like a [wolf](https://en.wikipedia.org/wiki/Wolf) but [silly](https://knowyourmeme.com/memes/moon-moon)_
+
 Setup
 ===========================
 1. `git clone https://github.com/anjunatl/waffu.git`
